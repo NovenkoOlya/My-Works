@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+body{
+background: rgb(233, 233, 233);
+    
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+
+
+h1{
+    
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(5, 5, 44);
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+h3{
+
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(90, 90, 90);
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+.main-green{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 85%;
+   
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing:50px 50px;
+    background-color: white;
+    padding: 10px 100px 10px 20px ;
+    margin: 150px 25px 50px 25px;
+    border-radius:20px;
+}
+
+
+.main-green:hover{
+    background-color: rgb(233, 247, 233);
+}
+
+h2{
+    margin: 10px 10px 30px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.lesson{
+    display: inline-block;
+   
+    height:180px;
+    width:290px;
+    background-color: white;
+    
+    padding:5px 10px 5px 10px;
+    margin: 10px 10px 30px 10px;
+    -webkit-box-shadow: 4px 4px 45px 0px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 4px 4px 45px 0px rgba(0, 0, 0, 0.49);
+    box-shadow: 4px 4px 45px 0px rgba(0, 0, 0, 0.49);
+    border-radius:10px;
+ 
+}
+h4{
+    
+    font-size: 18px;
+    margin:0 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.VIEW{
+   
+    padding: 2px 10px;
+    margin: 10px;
+    border-width:2px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    float:left;
+    border-radius: 5px;
+   
+}
+
+.decoration{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+
+.card{
+    padding: 2px 10px;
+    margin: 10px;
+    color: gray;
+margin:10px;
+    float: right;
+}
+.VIEW:hover{
+    border-color: blueviolet;
+    -webkit-box-shadow: 4px 4px 45px 0px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 4px 4px 45px 0px rgba(0, 0, 0, 0.49);
+    box-shadow: 4px 4px 45px 0px rgba(0, 0, 0, 0.49);
+}
+
+.main-white{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 85%;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing:50px 50px;
+    background-color: white;
+    padding: 10px 100px 100px 20px ;
+    margin: 0 25px 50px 25px;
+    border-radius:20px;
+}
+
+.main-white:hover{
+    background-color: rgb(233, 238, 247);
+}
+
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+    display: flex; 
+       flex-flow: column;
+align-items: center
+
+}
+#header{
+    background: rgb(233, 233, 233);
+    top: 0;
+    position: sticky;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+   
+    
+}
+
+
+.header-icons > i{
+    margin: 0 10px 0 0  ;
+    padding: 5px 0 0 0;
+}
+
+.header-lesson{
+    display: flex;
+    margin: 10px 20px 10px 20px  ;
+}
+
+.header-text, .header-icons{
+    display:inline-block;
+}
+
+hr{
+    margin: 20px;
+}
+
+.inner{
+    float: left;
+}
+
+.inner-3{
+    position: fixed;
+    bottom:200px;
+    right:0px;
+    height: 100px;
+    width: 100px;
+    border: 25px solid black;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.inner-3:hover{
+    -moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+    border-color: rgb(76, 101, 216);
+    transition: .4s;
+}
+
+.inner-3:hover > i{
+    -moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+    color : rgb(76, 101, 216);
+    border-color: rgb(76, 101, 216);
+    transition: .4s;
+
+}
+
+.inner-3 > i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+
+
+
+
+.fourteen{
+    background-color: rgb(194, 194, 194);
+    pointer-events: none;
+}
+
+
+
+#check, #icon, #theme{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    
+}
+
+#check{
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#icon{
+    z-index: 1;
+    background-image: url("../images/Sensibleworld-Starwars-Darth-Vader.ico");
+    background-size: 90%;
+    background-color: #fff;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#theme{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#theme #color{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    transition: 2s all linear;
+}
+
+#check:checked ~ #theme #color{
+    background-color: #000;
+    width: calc(100vmax * 3);
+    height:calc(100vmax * 3) ;
+}
+
+
+
+
+
+
+@media screen and (max-width: 100%){
+
+    
+    .header{ 
+        max-width: 100%;
+        position: fixed;
+    }
+     .inner-3{
+        top: 80vh;
+        right: 2px;
+        margin: 0;
+     }
+   
+     
+  
+}
+
