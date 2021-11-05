@@ -37,7 +37,7 @@ h3{
 .main-green{
     display: flex;
     flex-wrap: wrap;
-    max-width: 85%;
+    max-width: 95%;
    
     border-radius: 5px;
     border-collapse: separate;
@@ -114,7 +114,7 @@ margin:10px;
 .main-white{
     display: flex;
     flex-wrap: wrap;
-    max-width: 85%;
+    max-width: 95%;
     border-radius: 5px;
     border-collapse: separate;
     border-spacing:50px 50px;
