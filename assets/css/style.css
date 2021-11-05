@@ -265,10 +265,7 @@ transform: scale(1.2);
     display: block;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: #fff;
-    transform: translate(-50%, -50%);
-    transition: 2s all linear;
+    
 }
 
 #check:checked ~ #theme #color{
@@ -277,9 +274,26 @@ transform: scale(1.2);
     height:calc(100vmax * 3) ;
 }
 
+#check:checked ~ .main-green{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
 
+#check:checked ~ .main-green ~ .lesson{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
 
+#check:checked ~ .main-white{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
 
+#check:checked ~ .header{
+    background-color: black;
+    color: white;
+    
+}
 
 
 @media screen and (max-width: 100%){
