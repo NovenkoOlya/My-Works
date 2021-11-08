@@ -276,17 +276,17 @@ transform: scale(1.2);
 
 #check:checked ~ .main-green{
     background-color: rgb(36, 36, 36);
-    color: white;
+    color: rgb(173, 173, 173);;
 }
 
 #check:checked ~ .main-green ~ .lesson{
     background-color: rgb(36, 36, 36);
-    color: white;
+    color: rgb(173, 173, 173);;
 }
 
 #check:checked ~ .main-white{
     background-color: rgb(36, 36, 36);
-    color: white;
+    color: whitergb(173, 173, 173);;
 }
 
 #check:checked ~ .header{
